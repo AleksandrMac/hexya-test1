@@ -1,0 +1,31 @@
+configfilename = "./hexya-hexyaDB.toml"
+datadir = "C:\\Users\\ALEXANDR\\.hexya"
+debug = false
+demo = false
+logfile = ""
+loglevel = "info"
+logstdout = false
+modules = [
+  "github.com/hexya-erp/hexya-test1/openacademy",
+  "github.com/hexya-addons/web"]
+resourcedir = "./res"
+
+[db]
+  driver = "postgres"
+  host = "/var/run/postgresql"
+  name = "hexya"
+  password = ""
+  port = "5432"
+  sslca = ""
+  sslcert = ""
+  sslkey = ""
+  sslmode = "disable"
+  user = ""
+
+[server]
+  certificate = ""
+  domain = ""
+  interface = ""
+  languages = []
+  port = "8081"
+  privatekey = ""
