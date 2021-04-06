@@ -8,6 +8,7 @@ import (
 	"os"
 
 	_ "github.com/hexya-addons/web"
+	_ "github.com/hexya-erp/hexya-test1/openacademy"
 	"github.com/hexya-erp/hexya/cmd"
 	"github.com/spf13/cobra"
 )
